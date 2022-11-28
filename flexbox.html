@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+        <style>
+            .header {display: flex;
+                    padding-bottom: 50px;
+                    border: solid 2px pink;
+                    background-color: pink;
+                    font-size: 50px;
+                    text-align: center;}
+    
+            .main-body {display: flex;
+                    border: solid 2px grey;
+                    background-color: grey;
+                    flex-direction:row;}
+            .aside {flex:1;
+                    margin-left: 5px;
+                    padding-bottom: 100px;}
+
+            .main {flex:2;
+                    margin-left: 50px;
+            }
+            
+            .aside2 {flex:1;
+                    margin-right: 5px;
+                    padding-bottom: 100px;}
+
+            .footer {display: flex;
+                    border: solid 2px pink;
+                    background: pink;
+                    text-align: left;}
+                    ul {list-style:none;
+                    border: solid 2px black;
+                    display: inline-block;
+                    padding-left:0;}
+        li a {text-decoration: none;
+                    color: pink;
+                    background-color: gray;
+                    display:block;
+                    width:100px;
+                    padding-top:20px;
+                    padding-bottom:20px;
+                    text-align: center;} 
+        li a:hover {
+                    background-color: lightblue;}
+
+        li a.hobbies {
+                    background-color: pink;
+                    color:black}
+        li {
+                    float: left;}      
+        
+            *{font-family: 'Lato', sans-serif;}  
+
+
+        </style>
+
+    </head>
+    <body>
+
+
+        <ul>
+            <li><a class="active" href="About me.html">About Me</a></li>
+            <li><a class="education" href="flexbox copy.html">Education </a></li>
+            <li><a class="hobbies" href="flexbox.html">Hobbies</a></li>
+        </ul>
+
+        <div class ="header">Hobbies</div>
+        <div class="main-body">
+        <div class="aside">
+            <p> I started competitivly swimmng when I was eight years old I started swimming because my dad was a swimmer when he was younger, and I had a natural talent and passion. I was apart of the YMCA swim team in my town until 8th grade. Them, In high school I made varsity swimming for all four years.  </p>
+        </div>
+                
+        <div class="main"> <img src="swim.jpg" height="300" width="480"> </div>
+                
+        <div class="aside2"> 
+                <p> I started doing crew when I was a freshman in high school. I made nationals for Greenwich Crew in 2018 which took place in California. </p>
+        </div>
+        </div>
+
+    <div class="footer"> <br> I enjoy hanging out with my friend, family, and being active  <br> I also love wake boarding in the summer and going to the beach. <br> I also enjoy listening to music while working out or doing homework. <br> </div>
+    </body>
+</html>

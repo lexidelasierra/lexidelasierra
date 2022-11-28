@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+        <meta name="viewpoint" content="width=device-width, internal-scale=1.0">
+        
+       <style>
+            .header {display: flex;
+                border: solid 2px grey;
+                background-color: grey;
+                padding-bottom: 50px;
+                font-size: 50px;
+                text-align: center;}
+    
+            .main-body {display: flex;
+                         flex-direction:row;
+                         padding-bottom: 30px;
+                         border: solid 2px pink;
+                         background-color: pink;}
+            .aside {flex:1;
+                    
+                    border: solid 2px pink;
+                    background-color: pink;}
+
+            .main {flex:2;
+                    margin-left: 50px;
+            }
+            
+            .aside2 {flex:1;
+                    margin-right: 5px;
+                    padding-bottom: 100px;
+                    text-align:left;}
+
+            .footer {display: flex;
+                    border: solid 2px grey;
+                    background-color: gray;
+                    text-align:left;
+                    font-size: larger;}
+                    ul {list-style:none;
+                    border: solid 2px black;
+                    display: inline-block;
+                    padding-left:0;}
+              
+                    ul {list-style:none;
+            border: solid 2px black;
+            display: inline-block;
+            padding-left:0;}
+        li a {text-decoration: none;
+              color: pink;
+              background-color: gray;
+              display:block;
+              width:100px;
+              padding-top:20px;
+              padding-bottom:20px;
+              text-align: center;} 
+        li a:hover 
+        {background-color: lightblue;}
+
+        li a.education {background-color: pink;
+                     color:black}
+        li {float: left;}
+        *{font-family: 'Lato','sans-serif'}
+
+    
+        </style>
+
+    </head> 
+    <body>
+
+        <ul>
+            <li><a class="active" href="About me.html">About Me</a></li>
+            <li><a class="education" href="flexbox copy.html">Education </a></li>
+            <li><a class="hobbies" href="flexbox.html">Hobbies</a></li>
+        </ul>
+
+        <div class ="header"> Education </div>
+        <div class="main-body">
+            <div class="aside">
+                <p>I attended Greenwich Catholic School, which is a private school in Greenwich, Conneticut from pre-school to seventh grade. My three sibilings also attented this elementrary school.</p>
+            </div>
+                
+            <div class="main"> <img src="school.jpg" height="250" width="450"> </div>
+                
+            <div class="aside2"> 
+                <p>  I switched to a private school for eight grade called Eagle Hill. This is a small pirvate school also in Greenwich, Conneticut.  </p>
+            </div>
+        </div>
+
+        <div class="footer"> <br>  <br> I attended Greenwich High School all four years of high school. <br> My sister, Sofi, graduated in 2018 and my brother, Niki, graduated in 2019. </div>
+        
+    </body>
+</html>
